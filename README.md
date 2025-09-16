@@ -1,6 +1,9 @@
 # OpenLive2D (WIP)
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Quanvm0501alt1/OpenLive2D)
+Old: [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Quanvm0501alt1/OpenLive2D)
+
+New: [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/BlackCatOfficialytb/OpenLive2D)
 ## 💖✨ Better, more perfomance Live2D for Everyone! Support all platform that supports Python, Java (soon) and Rust! (I uses Gemini to code some hard frameworks)
+## Currently I'm busy (grade 8) and sometimes got an ill, I will still working with this project, not abandoned.
 ## **Progress:** Making client.py and render.py
 ### This project uses [Krita](https://krita.org/en/) files and kritapy to read the texture, like .psd in Photoshop, preventing from crack Photoshop =))))
 #### also [@nekomeowww](https://github.com/nekomeowww) this is Python, Java (soon) and Rust not C++ she think I'm C++ dev bruh
@@ -19,6 +22,21 @@
 > **Note:** Optimized, modded windows might still working, but recommend using the official version for windows, but if you can't use it, download and install **Windows 10 IoT Enterpise LTSC 2021** or **Windows 11 IoT Enterpise LTSC 2022** for smallest, debloated windows (not advertise), but need keys _or mas aio =\)\)_
 
 ### MacOS, Linux, BSDs
+- **macOS**:
+  - **Minimum:** macOS 10.9 64-bit: Python 3.7
+  - **Lowest Supported Version:** macOS 10.9 64-bit: Python 3.9
+  - **Recommend version:** macOS 10.13: Python 3.13+
+- **Debian/Ubuntu based:**
+  - **Minimum:** Debian 10 (main repositories): Python 3.7 / Ubuntu 18.04 LTS (main repositories not deadsnakes): Python 3.7
+  - **Lowest Supported Version:** Debian 11 (main repositories): Python 3.9 / Ubuntu 20.04 LTS (main repositories not deadsnakes): Python 3.9
+  - **Recommend version:** Debian 13 (Trixie) / Ubuntu 24.04 (Noble Numbat): Python 3.13+
+- **Arch:** Arch repo is updating continuously, so it impossible to detect the lowest version that minimal supports or reccomend :\(\(
+
+### For Windows to install
+- Install Python, [search](https://www.youtube.com/results?search_query=how+to+install+python+on+windows) it on YouTube
+- Install Krita, search it on google
+
+### For MacOS, Linux, BSDs to install:
 - **macOS**:
   - **Xcode Command Line Tools**: Required for compiling some Python package dependencies. You can install them by running `xcode-select --install` in your terminal.
   - **Krita**: Download and install from the official Krita website.
@@ -52,7 +70,6 @@
 > **Note:** Using the latest version of Krita is highly recommended for the best performance and compatibility, especially for the `convert_psd_to_kra` functionality.
 
 ## Installtion
-> Install Python before doing this
 
 To getting started, first:
 ### Make Virtual Environments
