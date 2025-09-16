@@ -57,6 +57,7 @@ def main():
     parser.add_argument('--height', type=int, default=600, help='Height of the output image.')
     parser.add_argument('--example', action='example', help='Use example model and output path.')
     parser.add_argument('--output', type=str, required=True, help='Path to save the output image.')
+    parser.add_argument('--type', type=str, required=True, help='Type ò the file to specified (optinoal)')
     args = parser.parse_args()
 
     if args.example:
