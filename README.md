@@ -30,13 +30,17 @@ New: [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Blac
   - **Minimum:** Debian 10 (main repositories): Python 3.7 / Ubuntu 18.04 LTS (main repositories not deadsnakes): Python 3.7
   - **Lowest Supported Version:** Debian 11 (main repositories): Python 3.9 / Ubuntu 20.04 LTS (main repositories not deadsnakes): Python 3.9
   - **Recommend version:** Debian 13 (Trixie) / Ubuntu 24.04 (Noble Numbat): Python 3.13+
-- **Arch:** Arch repo is updating continuously, so it impossible to detect the lowest version that minimal supports or reccomend :\(\(
+- **Arch:** Arch repo is updating continuously, so it is impossible to detect the lowest version that minimally supports or recommend :\(\(
+- **BSDs (Berkeley Software Distributions) or their forks:**
+  - **Minimum:** Any BSD
+  - **Lowest Supported Version:** Any BSD
+  - **Recommend version:** Any BSD
 
 ### For Windows to install
 - Install Python, [search](https://www.youtube.com/results?search_query=how+to+install+python+on+windows) it on YouTube
-- Install Krita, search it on google
+- Install Krita, search for it on Google
 
-### For MacOS, Linux, BSDs to install:
+### For MacOS, Linux, and BSDs to install:
 - **macOS**:
   - **Xcode Command Line Tools**: Required for compiling some Python package dependencies. You can install them by running `xcode-select --install` in your terminal.
   - **Krita**: Download and install from the official Krita website.
@@ -45,11 +49,11 @@ New: [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Blac
   - **Build Tools**: `sudo apt-get update && sudo apt-get install build-essential python3-dev`
   - **Krita**: `sudo apt-get install krita` or download the AppImage from the official Krita website.
 
-- **Linux (Arch based)**:
+- **Linux (Arch-based)**:
   - **Build Tools**: `sudo pacman -Syu base-devel`
   - **Krita**: `sudo pacman -S krita`
 
-- **Linux (Fedora based)**:
+- **Linux (Fedora-based)**:
   - **Build Tools**: `sudo dnf groupinstall "C Development Tools and Libraries"` and `sudo dnf install python3-devel`
   - **Krita**: `sudo dnf install krita`
 
