@@ -3,7 +3,7 @@ Old: [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Quan
 
 New: [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/BlackCatOfficialytb/OpenLive2D)
 ## 💖✨ Better, more perfomance Live2D for Everyone! Support all platform that supports Python, Java (soon) and Rust! (I uses Gemini to code some hard frameworks)
-## Currently I'm busy (grade 8) and sometimes got an ill, I will still working with this project, not abandoned.
+## Working on OpenCut for Vietnamese, so this might takes a while to update, also it's hard too because I can't fine tune Gemini AI
 ## **Progress:** Making client.py and render.py
 ### This project uses [Krita](https://krita.org/en/) files and kritapy to read the texture, like .psd in Photoshop, preventing from crack Photoshop =))))
 #### also [@nekomeowww](https://github.com/nekomeowww) this is Python, Java (soon) and Rust not C++ she think I'm C++ dev bruh
