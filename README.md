@@ -1,4 +1,4 @@
-# OpenLive2D (WIP)
+# OpenLive2D (Unitil summer i'l update nơ let me update my ublock origin filter and done xhider deobf)
 Old: [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Quanvm0501alt1/OpenLive2D)
 
 New: [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/BlackCatOfficialytb/OpenLive2D)
@@ -6,7 +6,6 @@ New: [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Blac
 ## Working on OpenCut for Vietnamese, so this might takes a while to update, also it's hard too because I can't fine tune Gemini AI, if got some issue or feature, go to issues and report bugs or features
 ## **Progress:** Making client.py and render.py
 ### This project uses [Krita](https://krita.org/en/) files and kritapy to read the texture, like .psd in Photoshop, preventing from crack Photoshop =))))
-#### also [@nekomeowww](https://github.com/nekomeowww) this is Python, Java (soon) and Rust not C++ she think I'm C++ dev bruh
 
 > We are making all entire from the scratch, no using any of Live2D Cubism SDK resources!
 
