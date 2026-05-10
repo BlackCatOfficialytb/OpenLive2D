@@ -4,12 +4,11 @@ Old: [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Quan
 New: [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/BlackCatOfficialytb/OpenLive2D)
 ## 💖✨ Better, more perfomance Live2D for Everyone! Support all platform that supports Python, Java (soon) and Rust! (I uses Gemini to code some hard frameworks)
 ## Currently I'm busy (grade 8) and sometimes got an ill, I will still working with this project, not abandoned.
-## **Progress:** Making client.py and render.py
+## **Progress:** Migrated to [Codeberg](https://codeberg.org/Quanvm0501alt1/OpenLive2D) (private during updates, soon public). Making `client.py` and `render.py`.
 ### `render.py` is now a working CLI renderer (Blender bakes, Panda3D displays). `client.py` (the GUI) is still in progress.
 ### This project uses [Krita](https://krita.org/en/) files and kritapy to read the texture, like .psd in Photoshop, preventing from crack Photoshop =))))
-#### also [@nekomeowww](https://github.com/nekomeowww) this is Python, Java (soon) and Rust not C++ she think I'm C++ dev bruh
 
-> We are making all entire from the scratch, no using any of Live2D Cubism SDK resources!
+> We are making everything from scratch, not using any of Live2D Cubism SDK resources!
 
 # How to install
 - `file_handler.py` and `render.py` (CLI) are working. `client.py` (GUI) is still in progress.
@@ -20,7 +19,7 @@ New: [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Blac
 - **Minimum Version:** 10
 - **Lowest Supported Version:** 10
 - **Recommended Version:** 11
-> **Note:** Optimized, modded windows might still working, but recommend using the official version for windows, but if you can't use it, download and install **Windows 10 IoT Enterpise LTSC 2021** or **Windows 11 IoT Enterpise LTSC 2022** for smallest, debloated windows (not advertise), but need keys _or mas aio =\)\)_
+> **Note:** Optimized, modded windows might still working, but recommend using the official version for Windows. If you can't use it, download and install **Windows 10 IoT Enterprise LTSC 2021** or **Windows 11 IoT Enterprise LTSC 2022** for the smallest, debloated Windows (not advertised), but need keys _or mas aio =\)\)_
 
 ### MacOS, Linux, BSDs
 - **macOS**:
@@ -31,13 +30,17 @@ New: [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Blac
   - **Minimum:** Debian 10 (main repositories): Python 3.7 / Ubuntu 18.04 LTS (main repositories not deadsnakes): Python 3.7
   - **Lowest Supported Version:** Debian 11 (main repositories): Python 3.9 / Ubuntu 20.04 LTS (main repositories not deadsnakes): Python 3.9
   - **Recommend version:** Debian 13 (Trixie) / Ubuntu 24.04 (Noble Numbat): Python 3.13+
-- **Arch:** Arch repo is updating continuously, so it impossible to detect the lowest version that minimal supports or reccomend :\(\(
+- **Arch:** Arch repo is updating continuously, so it is impossible to detect the lowest version that minimally supports or recommend :\(\(
+- **BSDs (Berkeley Software Distributions) or their forks:**
+  - **Minimum:** Any BSD
+  - **Lowest Supported Version:** Any BSD
+  - **Recommend version:** Any BSD
 
 ### For Windows to install
 - Install Python, [search](https://www.youtube.com/results?search_query=how+to+install+python+on+windows) it on YouTube
-- Install Krita, search it on google
+- Install Krita, search for it on Google
 
-### For MacOS, Linux, BSDs to install:
+### For MacOS, Linux, and BSDs to install:
 - **macOS**:
   - **Xcode Command Line Tools**: Required for compiling some Python package dependencies. You can install them by running `xcode-select --install` in your terminal.
   - **Krita**: Download and install from the official Krita website.
@@ -46,11 +49,11 @@ New: [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Blac
   - **Build Tools**: `sudo apt-get update && sudo apt-get install build-essential python3-dev`
   - **Krita**: `sudo apt-get install krita` or download the AppImage from the official Krita website.
 
-- **Linux (Arch based)**:
+- **Linux (Arch-based)**:
   - **Build Tools**: `sudo pacman -Syu base-devel`
   - **Krita**: `sudo pacman -S krita`
 
-- **Linux (Fedora based)**:
+- **Linux (Fedora-based)**:
   - **Build Tools**: `sudo dnf groupinstall "C Development Tools and Libraries"` and `sudo dnf install python3-devel`
   - **Krita**: `sudo dnf install krita`
 
@@ -82,7 +85,7 @@ New: [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Blac
 
 ## Installtion
 
-To getting started, first:
+To get started, first:
 ### Make Virtual Environments
 - For Windows, use: `python -m venv .venv` or `py -3.13 -m venv .venv` if you have multiple python version installed
 - For MacOS, Linux, BSDs, use: `python3 -m venv .venv` or `python3.13 -m venv .venv` if you have multiple python version installed
@@ -91,7 +94,7 @@ To getting started, first:
 - For Windows, use: `python -m virtualenv .venv` or `py -3.13 -m virtualenv .venv` if you have multiple python version installed
 - For MacOS, Linux, BSDs, use: `python3 -m virtualenv .venv` or `python3.13 -m virtualenv .venv` if you have multiple python version installed
 
-### Install Dependcies
+### Install Dependencies
 #### Easy way
 - First, download and install [Krita](https://krita.org/en/)
 - If Windows, then `.venv\Scripts\activate`
@@ -153,5 +156,5 @@ Video mode requires `ffmpeg` on PATH.
 - If Windows, then `.venv\Scripts\python.exe client.py`
 - If MacOS, Linux, BSDs, then `.venv/bin/python3 client.py`
 
-## Is it will implement into [moeru-ai/airi](https://github.com/moeru-ai/airi)?
-- Nope, it might possible but it using Vue: 54.6% and TypeScript: 38.2%, making it frickin' hard to implement unless we using Python for JS/TS
+## Will it be implemented into [moeru-ai/airi](https://github.com/moeru-ai/airi)?
+- Nope, it might be possible, but it uses Vue: 54.6% and TypeScript: 38.2%, making it frickin' hard to implement unless we use Python for JS/TS
