@@ -1,3 +1,6 @@
+# OpenLive2D dependencies.
+# Supported Python: 3.10 - 3.13. Blender's bpy index does not yet ship cp314 wheels.
+# Update the cap once https://download.blender.org/pypi/bpy/ publishes cp314.
 Brotli
 cffi
 cryptography
@@ -9,6 +12,7 @@ multivolumefile
 numpy
 packaging
 Panda3D
+bpy
 pillow
 psutil
 py7zr

@@ -1,0 +1,17 @@
+{
+  "humanoid": {
+    "color": "#FFCC99",
+    "size": 1.0,
+    "width": 1.0,
+    "height": 2.0
+  },
+  "head": "head.json",
+  "torso": "torso.json",
+  "left_arm": "left_arm.json",
+  "right_arm": "right_arm.json",
+  "left_leg": "left_leg.json",
+  "right_leg": "right_leg.json",
+  "animations": {
+    "idle": "idle.json"
+  }
+}

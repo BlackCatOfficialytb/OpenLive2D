@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.venv/Scripts/python.exe *)",
+      "WebFetch(domain:download.blender.org)",
+      "Bash(curl -sSL \"https://download.blender.org/pypi/bpy/\" -A \"Mozilla/5.0\")"
+    ]
+  }
+}
