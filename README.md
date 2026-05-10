@@ -1,24 +1,21 @@
-# OpenLive2D (Unitil summer i'l update nơ let me update my ublock origin filter and done xhider deobf)
-Old: [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Quanvm0501alt1/OpenLive2D)
-
-New: [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/BlackCatOfficialytb/OpenLive2D)
-## 💖✨ Better, more perfomance Live2D for Everyone! Support all platform that supports Python, Java (soon) and Rust! (I uses Gemini to code some hard frameworks)
-## Working on OpenCut for Vietnamese, so this might takes a while to update, also it's hard too because I can't fine tune Gemini AI, if got some issue or feature, go to issues and report bugs or features
-## **Progress:** Migrating to Codeberg
+# OpenLive2D (Updating)
+[![Ask DeepWiki](httpwe s://deepwiki.com/badge.svg)](https://deepwiki.com/BlackCatOfficialytb/OpenLive2D)
+## 💖✨ Better, more perfomance Live2D for Everyone! Support all platform that supports Python, Java (soon), and Rust!
+## **Progress:** Migrated to [Codeberg](https://codeberg.org/Quanvm0501alt1/OpenLive2D) (private to updating, soon public)
 ### This project uses [Krita](https://krita.org/en/) files and kritapy to read the texture, like .psd in Photoshop, preventing from crack Photoshop =))))
 
-> We are making all entire from the scratch, no using any of Live2D Cubism SDK resources!
+> We are making everything from scratch, not using any of Live2D Cubism SDK resources!
 
 # How to install
-- Currently only file_handler.py is working since we are working on client.py and render.py
+- Currently,y only file_handler.py is working since we are working on client.py and render.py
 
 ## Dependcies
 
 ### Windows
-- **Minimum Version:** 10
+recommendsmVersion:** 10
 - **Lowest Supported Version:** 10
 - **Recommended Version:** 11
-> **Note:** Optimized, modded windows might still working, but recommend using the official version for windows, but if you can't use it, download and install **Windows 10 IoT Enterpise LTSC 2021** or **Windows 11 IoT Enterpise LTSC 2022** for smallest, debloated windows (not advertise), but need keys _or mas aio =\)\)_
+> **Note:** Optimized, modded windows might still working, but recommend using the official version for Windows. If you can't use it, download and install **Windows 10 IoT Enterprise LTSC 2021** or **Windows 11 IoT Enterprise LTSC 2022** for the smallest, debloated Windows (not advertised), but need keys _or mas aio =\)\)_
 
 ### MacOS, Linux, BSDs
 - **macOS**:
@@ -74,7 +71,7 @@ New: [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Blac
 
 ## Installtion
 
-To getting started, first:
+To get started, first:
 ### Make Virtual Environments
 - For Windows, use: `python -m venv .venv` or `py -3.13 -m venv .venv` if you have multiple python version installed
 - For MacOS, Linux, BSDs, use: `python3 -m venv .venv` or `python3.13 -m venv .venv` if you have multiple python version installed
@@ -83,7 +80,7 @@ To getting started, first:
 - For Windows, use: `python -m virtualenv .venv` or `py -3.13 -m virtualenv .venv` if you have multiple python version installed
 - For MacOS, Linux, BSDs, use: `python3 -m virtualenv .venv` or `python3.13 -m virtualenv .venv` if you have multiple python version installed
 
-### Install Dependcies
+### Install Dependencies
 #### Easy way
 - First, download and install [Krita](https://krita.org/en/)
 - If Windows, then `.venv\Scripts\activate`
@@ -105,5 +102,5 @@ To getting started, first:
 - If Windows, then `.venv\Scripts\python.exe client.py`
 - If MacOS, Linux, BSDs, then `.venv/bin/python3 client.py`
 
-## Is it will implement into [moeru-ai/airi](https://github.com/moeru-ai/airi)?
-- Nope, it might possible but it using Vue: 54.6% and TypeScript: 38.2%, making it frickin' hard to implement unless we using Python for JS/TS
+## Will it be implemented into [moeru-ai/airi](https://github.com/moeru-ai/airi)?
+- Nope, it might be possible, but it uses Vue: 54.6% and TypeScript: 38.2%, making it frickin' hard to implement unless we use Python for JS/TS
