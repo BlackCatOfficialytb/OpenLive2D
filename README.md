@@ -1,10 +1,7 @@
 # OpenLive2D (WIP)
-Old: [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Quanvm0501alt1/OpenLive2D)
-
-New: [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/BlackCatOfficialytb/OpenLive2D)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/BlackCatOfficialytb/OpenLive2D)
 ## 💖✨ Better, more perfomance Live2D for Everyone! Support all platform that supports Python, Java (soon) and Rust! (I uses Gemini to code some hard frameworks)
-## Currently I'm busy (grade 8) and sometimes got an ill, I will still working with this project, not abandoned.
-## **Progress:** Migrated to [Codeberg](https://codeberg.org/Quanvm0501alt1/OpenLive2D) (private during updates, soon public). Making `client.py` and `render.py`.
+## **Progress:** Migrated to [Codeberg](https://codeberg.org/Quanvm0501alt1/OpenLive2D) (private during updates, soon public).
 ### `render.py` is now a working CLI renderer (Blender bakes, Panda3D displays). `client.py` (the GUI) is still in progress.
 ### This project uses [Krita](https://krita.org/en/) files and kritapy to read the texture, like .psd in Photoshop, preventing from crack Photoshop =))))
 
